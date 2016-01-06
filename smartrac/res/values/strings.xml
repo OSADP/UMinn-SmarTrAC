@@ -1,0 +1,155 @@
+<resources>
+
+    <string name="app_name">SmarTrAC</string>
+    <string name="map_api_key">AIzaSyAibwB2iGsV2Gpo-Uyu6n187qRx44aQn-g</string>
+    <string name="search">Search</string>
+    <string name="or_enter_address_here">Or enter your address here</string>
+    <string name="next">Next</string>
+    <string name="current_location">Current Location</string>
+    <string name="search_hint">Search Places</string>
+    <string name="search_settings">Search Places</string>
+    <string name="have_primary_job_question">Do you have a primary work place?</string>
+    <string name="is_a_student">Are you a student</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="later">Later</string>
+    <string name="ok">OK</string>
+    <string name="restart_to_smartrac">Restart to SmarTrAC</string>
+    <string name="start_smartrac">Let\'s go</string>
+    <string name="smartrac_service_started">SmarTrAC Service Started</string>
+    <string name="notification_message">SmarTrAC Service running</string>
+    <string name="location_service_name">Smartrac Location Service</string>
+    <string name="map">&#32;&#32;Map&#32;&#32;</string>
+    <string name="calendar">Calendar</string>
+    <string name="finalize">Finalize</string>
+    <string name="save_calendar_items">Save Calendar Items</string>
+    <string name="delete_calendar_items">Delete All Saved Items</string>
+    <string name="calendar_item_description">Description</string>
+    <string name="start_time">Start:</string>
+    <string name="end_time">End:</string>
+    <string name="HHH_desktop_debug_google_map_api_key">AIzaSyB51yvFz2JRc0kgJBuq2-hSj9Cwyq40QlY</string>
+    <string name="jie_desktop_debug_google_map_api_key">AIzaSyBTdEqKkgynEh_ixTUCL3aQYo8JAlvvRUM</string>
+    <string name="Yash_API_KEY">AIzaSyCCCfW5j-y6dEVJiXt8XS-SS10vFP99DSI</string>
+    <string name="travel_mode">Travel Mode</string>
+    <string name="activity_type">Activity Type</string>
+    <string name="date">Date</string>
+    <string name="modify">Modify</string>
+    <string name="export_database">Export Database</string>
+    <string name="split">Split</string>
+    <string name="delete_raw_datas">Delete Raw Data</string>
+    <string name="cluster_title">Activity Cluster</string>
+    <string name="dwelling_summary_updated_broadcast">com.smartracumn.smartrac.dwelling_summary_updated</string>
+    <string name="location_not_available_broadcast">com.smartracumn.smartrac.location_not_available</string>
+    <string name="dwelling_changed_broadcast">com.smartracumn.smartrac.dwelling_changed</string>
+    <string name="phone_put_broadcast">com.smartracumn.smartrac.phone_put</string>
+    <string name="phone_pick_up_broadcast">com.smartracumn.smartrac.phone_pick_up</string>
+    <string name="service_started_broadcast">com.smartracumn.smartrac.service_started</string>
+    <string name="service_stopped_broadcast">com.smartracumn.smartrac.service_stopped</string>
+    <string name="dwelling_locations_loaded_broadcast">com.smartracumn.smartrac.dwelling_locations_loaded</string>
+    <string name="data_service_state_change_broadcast">com.smartracumn.smartrac.data_service_state_change</string>
+    <string name="data_service_reschedule_broadcast">com.smartracumn.smartrac.data_service_reschedule</string>
+    <string name="data_service_on_off_broadcast">com.smartracumn.smartrac.data_service_on_off</string>
+    <string name="dwelling_indicator">Dwelling Indicator</string>
+    <string name="mode_changed_broadcast">com.smartracumn.smartrac.mode_changed</string>
+    <string name="time_tag">Time Tag</string>
+    <string name="service_start_time">service start time</string>
+    <string name="location_not_available_time">location_not_available_time</string>
+    <string name="no_current_location">Current Location Not Available</string>
+    <string name="clear_changes">Clear Changes</string>
+    <string name="no_data_description">Inaccurate GPS</string>
+    <string name="no_data_yet">Processing...</string>
+    <string name="smartrac_service_switch">Smartrac Service Switch</string>
+    <string name="smartrac_service_start_time_of_day">com.smartracumn.smartrac.service_start_time</string>
+    <string name="smartrac_service_stop_time_of_day">com.smartracumn.smartrac.service_stop_time</string>
+    <string name="smartrac_service_schedule_enabled">com.smartracumn.smartrac.service_schedule_enabled</string>
+    <string name="data_service_state">smartrac.data_service_state</string>
+    <string name="off">OFF</string>
+    <string name="on">ON</string>
+    <string name="smartrac_service">Smartrac Service</string>
+    <string name="app_domain">com.smartracumn.smartrac</string>
+    <string name="allow_smartrac_service">com.smartracumn.smartrac.allow_smartrac_service</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="previous">Edit</string>
+    <string name="summary_description">1.	Please describe simultaneous activities you carried out during this particular activity/trip, if any.</string>
+    <string name="summary_comapnion">2.	Who was with you? / Who accompanied you? (Select ALL that apply)</string>
+    <string name="summary_mood">3.	How you felt during this particular activity/trip?</string>
+    <string name="companion_alone">Alone</string>
+    <string name="companion_spouse">Spouse</string>
+    <string name="companion_ownChildren">Own children</string>
+    <string name="companion_otherFamily">Other family members </string>
+    <string name="companion_friends">Friends,  Neighbors , acquaintances</string>
+    <string name="companion_coWorkers">People from work</string>
+    <string name="happy">Happy</string>
+    <string name="sad">Sad</string>
+    <string name="stress">Stress</string>
+    <string name="pain">Pain</string>
+    <string name="meaningful">Meaningful</string>
+    <string name="tired">Tired</string>
+    <string name="seekbar_leftLabel">Not at all(0)</string>
+    <string name="seekbar_rightLabel">Very(6)</string>
+    <string name="enter_description">Enter a description</string>
+    <string name="net_effect">Net effect (mood):</string>
+    <string name="description">Description</string>
+    <string name="companion">Companion</string>
+    <string name="confirm">Confirm</string>
+        <string name="screenShot">Screen Shot</string>
+    <string name="no_data_impute">NoDataImp</string>
+    <string name="gps_off_impute">GPSOffImp</string>
+    <string name="dwelling_change_point">Dwelling Change Point</string>
+    <string name="crash_toast_text">Ooooops !The app has crashed. Please email us the details !</string>
+    <string name="crash_dialog_title">CrashTest has crashed</string>
+    <string name="crash_dialog_text">An unexpected error occurred forcing the
+    application to stop. Please help us fix this by sending us error data,
+    all you have to do is click OK.</string>
+    <string name="crash_dialog_comment_prompt">You might add your comments about the problem below:</string>
+    <string name="crash_dialog_ok_toast">Thank you !</string>
+    <string name="refresh">Refresh</string>
+
+    <string-array name="travel_modes">
+        <item>Unknown</item>
+        <item>Car</item>
+        <item>Bus</item>
+        <item>Walking</item>
+        <item>Bike</item>
+        <item>Rail</item>
+        <item>Wait</item>
+    </string-array>
+    <string-array name="activity_types">
+        <item>Unknown</item>
+        <item>Home</item>
+        <item>Work</item>
+        <item>Education</item>
+        <item>Shopping</item>
+        <item>Eat out</item>
+        <item>Other personal business</item>
+        <item>Social, recreation, community</item>
+    </string-array>
+    <string-array name="calendar_item_types">
+        <item>Unknown</item>
+        <item>Trip</item>
+        <item>Activity</item>
+    </string-array>
+    <string-array name="navigation">
+        <item>Daily Detail</item>
+        <item>Summary</item>
+        <item>User Settings</item>
+        <item>Upload</item>
+        <item>Bug Report</item>
+        <item>About</item>
+    </string-array>
+    <string-array name="number_of_companions">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>> 5</item>
+    </string-array>
+
+    <string name="comapnion_alone">Alone</string>
+
+</resources>

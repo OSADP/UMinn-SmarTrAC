@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_summary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Travel Mode"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textColor="@color/value_color"
+        android:background="@color/grey"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Duration"
+            android:textColor="@color/label_color" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Distance"
+            android:textColor="@color/label_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Walk"
+            android:textColor="@color/label_color" />
+
+        <TextView
+            android:id="@+id/walk_duration"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="TextView" 
+            android:textColor="@color/value_color"/>
+
+        <TextView
+            android:id="@+id/walk_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" 
+            android:textColor="@color/value_color"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:textColor="@color/label_color" >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Bus"
+            android:textColor="@color/label_color" />
+
+        <TextView
+            android:id="@+id/bus_duration"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="TextView" 
+            android:textColor="@color/value_color"/>
+
+        <TextView
+            android:id="@+id/bus_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/value_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Car"
+            android:textColor="@color/label_color" />
+
+        <TextView
+            android:id="@+id/car_duration"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="TextView" 
+            android:textColor="@color/value_color"/>
+
+        <TextView
+            android:id="@+id/car_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" 
+            android:textColor="@color/value_color"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Bike"
+            android:textColor="@color/label_color" />
+
+        <TextView
+            android:id="@+id/bike_duration"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="TextView" 
+            android:textColor="@color/value_color"/>
+
+        <TextView
+            android:id="@+id/bike_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/value_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Rail"
+            android:textColor="@color/label_color" />
+
+        <TextView
+            android:id="@+id/rail_duration"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/value_color" />
+
+        <TextView
+            android:id="@+id/rail_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/value_color" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Activity"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textColor="@color/value_color"
+        android:background="@color/grey"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Duration"
+            android:textColor="@color/label_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textColor="@color/label_color" />
+
+        <TextView
+            android:id="@+id/home_duration"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="TextView" 
+            android:textColor="@color/value_color"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Work"
+            android:textColor="@color/label_color" />
+
+        <TextView
+            android:id="@+id/work_duration"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/value_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Shopping"
+            android:textColor="@color/label_color" />
+
+        <TextView
+            android:id="@+id/shop_duration"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/value_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Eat Out"
+            android:textColor="@color/label_color" />
+
+        <TextView
+            android:id="@+id/eat_duration"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/value_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Education"
+            android:textColor="@color/label_color" />
+
+        <TextView
+            android:id="@+id/education_duration"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/value_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Social, Recreation and Community"
+            android:textColor="@color/label_color" />
+
+        <TextView
+            android:id="@+id/src_duration"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/value_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Other personal business"
+            android:textColor="@color/label_color" />
+
+        <TextView
+            android:id="@+id/opb_duration"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/value_color" />
+    </LinearLayout>
+
+</LinearLayout>

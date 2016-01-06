@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/job_prompt_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/next" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/have_primary_job_text"
+        android:layout_width="202dp"
+        android:layout_height="57dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/have_primary_job_question"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/text" />
+
+    <ToggleButton
+        android:id="@+id/has_primary_job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/have_primary_job_text"
+        android:layout_alignBottom="@+id/have_primary_job_text"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:checked="false"
+        android:textOff="@string/no"
+        android:textOn="@string/yes" />
+
+        <TextView
+        android:id="@+id/is_a_student_text"
+        android:layout_width="202dp"
+        android:layout_height="57dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/has_primary_job"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/is_a_student"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/text" />
+        
+        <ToggleButton
+        android:id="@+id/is_a_student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/is_a_student_text"
+        android:layout_alignBottom="@+id/is_a_student_text"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:checked="false"
+        android:textOff="@string/no"
+        android:textOn="@string/yes" />
+    
+</RelativeLayout>

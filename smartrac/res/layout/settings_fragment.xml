@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/background">
+   	<TableRow>
+
+   		<RelativeLayout
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content" 
+   		    android:padding="10dp">
+
+   		    <ToggleButton
+   		        android:id="@+id/smartrac_service_switch"
+   		        android:layout_width="wrap_content"
+   		        android:layout_height="wrap_content"
+   		        android:layout_alignParentRight="true"
+   		        android:padding="5dp"
+   		        android:text="@string/smartrac_service_switch"
+   		        android:textOff="@string/off"
+   		        android:textOn="@string/on" />
+   		    
+   		    <TextView
+   		        android:id="@+id/textView1"
+   		        android:layout_width="wrap_content"
+   		        android:layout_height="wrap_content"
+   		        android:layout_alignParentLeft="true"
+   		        android:layout_centerVertical="true"
+   		        android:paddingLeft="5dp"
+   		        android:text="@string/smartrac_service"
+   		        android:textAppearance="?android:attr/textAppearanceLarge"
+   		        android:textColor="@color/smartrac_activity_frame" />
+   		</RelativeLayout>
+
+    </TableRow>
+    
+   	   	<TableRow
+   	   	    android:background="@color/white">
+
+   		<RelativeLayout
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+   		    android:padding="10dp" >
+
+   		    <CheckBox
+   		        android:id="@+id/enable_schedule"
+   		        android:layout_width="wrap_content"
+   		        android:layout_height="wrap_content"
+   		        android:layout_alignParentLeft="true"
+   		        android:paddingLeft="5dp"
+   		        android:checked="false"
+   		        android:text="Schedule: "
+   		        android:textColor="@color/smartrac_activity_frame" />
+
+   		    <Button
+   		        android:id="@+id/service_start"
+   		        style="?android:attr/buttonBarButtonStyle"
+   		        android:layout_width="wrap_content"
+   		        android:layout_height="wrap_content"
+   		        android:layout_alignBottom="@+id/enable_schedule"
+   		        android:layout_toLeftOf="@+id/textView2"
+   		        android:text="07:00 am"
+   		        android:textColor="@color/smartrac_activity_frame" />
+
+   		    <TextView
+   		        android:id="@+id/textView2"
+   		        android:layout_width="wrap_content"
+   		        android:layout_height="wrap_content"
+   		        android:layout_alignBaseline="@+id/enable_schedule"
+   		        android:layout_toLeftOf="@+id/service_stop"
+   		        android:text=" - "
+   		        android:textColor="@color/smartrac_activity_frame" />
+
+   		    <Button
+   		        android:id="@+id/service_stop"
+   		        style="?android:attr/buttonBarButtonStyle"
+   		        android:layout_width="wrap_content"
+   		        android:layout_height="wrap_content"
+   		        android:layout_alignBottom="@+id/enable_schedule"
+   		        android:layout_alignParentRight="true"
+   		        android:paddingRight="5dp"
+   		        android:text="11:59 pm"
+   		        android:textColor="@color/smartrac_activity_frame" />
+
+   		    <Button
+   		        android:id="@+id/update_schedule"
+   		        style="?android:attr/buttonStyleSmall"
+   		        android:layout_width="wrap_content"
+   		        android:layout_height="wrap_content"
+   		        android:layout_alignParentRight="true"
+   		        android:layout_below="@+id/enable_schedule"
+   		        android:text="Update Schedule" />
+
+   		</RelativeLayout>
+
+    </TableRow>
+
+</TableLayout>

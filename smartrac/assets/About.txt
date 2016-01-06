@@ -1,0 +1,213 @@
+v1.2.7Y Date: 02/12/15
+
+* Refresh calendar icon added
+
+* All trips are confirmed in multi mode trip segment
+
+* Crash reports are uploaded with the database
+
+v1.2.6Y Date: 02/08/15
+
+* Database size is now shown in the upload dialog box
+
+* Trip can be now changed to UNKNOWN activity
+
+* After confirm is clicked, the dropdown layout is closed automatically
+
+v1.2.5J Date: 02/06/15
+
+* Implement filter by speed and acceleration.
+
+* Implemented instant movement recovery.
+
+* Modified prediction in progress relevant features.
+
+* Schedule smartrac data service running period.
+
+v1.2.4Y Date: 02/04/15
+
+* Upload issue fixed
+
+* Last upload date is shown 
+
+* OK and Cancel option added when the user clicks Upload
+
+* Confirm color is now changed without refreshing the calendar
+
+* Confirm End date fixed for multi-mode trip
+
+* Crash reports are now saved locally in a folder
+
+v1.2.3J Date: 1/30/15
+
+* remove end time of in progress items.
+
+* change test for smartrac off in progress.
+
+* update google map utility library
+
+v1.2.2J Date: 1/27/15
+
+* Clear Change preserve actual inaccurate GPS.
+
+* Calendar items are not cut by midnight.
+
+v1.2.1Y Date: 1/27/15
+
+* Populate activity drop down prior to activity prediction
+
+v1.2.0Y Date: 1/25/15
+
+* Data is compressed before uploading
+
+* Time-out is implemented (5 secs) in Activity prediction
+
+* Ongoing upload process cannot be dismissed by the user
+
+v1.1.9J Date: 1/23/15
+
+* Modified clear changes (automatically merge vehicle trip segments.)
+
+* New Trip editor implemented.
+
+v1.1.8J Date: 1/21/15
+
+* Check WIFI before data upload.
+
+* Implement data upload as a back ground service.
+
+v1.1.7J Date: 1/19/15
+
+* Fixed empty map and crash caused by change activity to trip
+
+* update instant movement threshold to 0.15
+
+* update adjustment threshold to 5 meters
+
+* make upload progress bar not cancelable.
+
+v1.1.6J Date: 1/15/15
+
+* Clean old calendar Item Util real time methods.
+
+* Move clear changes to calendar Item Service.
+
+* Fixed crash caused by modifying unknown activity.
+
+* Fixed crash caused by dialog dismiss.
+
+* Fixed in progress trip segment expand issue.
+
+* Modified abnormal in progress item display mechanism.
+
+* Modified inaccurate GPS handler mechanism.
+
+* Fixed bug in edit whole trip. (Associate inaccurate GPS creation issue and straight line issue).
+
+v1.1.5Y Date: 1/14/15
+
+* Home and Work confirmation Bug fixed
+
+* Upload progress is now shown
+
+* A pop-up is displayed after uploading is complete
+
+v1.1.4J Date: 1/11/15
+
+* Implement Calendar Item Service get feature.
+
+v1.1.3J Date: 1/7/15
+
+*Implement new calendar item utility real time module.
+
+*Modified merge trip mechanism.
+
+v1.1.2J Date: 1/5/15
+
+*Change instant movement threshold to 0.10
+
+*Implement new mode change broadcast algorithm, based on dwelling indicator
+
+*Remove trip merging, will be back with new calendar item utility
+
+*Change dwelling adjustment to adjust from middle point, always expand activity.
+
+v1.1.1Y Date: 1/5/15
+
+*Data Upload Reminder implemented (Warning Period = 14 days)
+
+*Confirm Screen: Icon modified for Soc/Rec/Comm
+
+v1.1.0Y Date: 1/2/15
+
+*Data cleaning algorithm is now implemented
+
+v1.0.9J   Date: 1/1/15
+
+* fixed error in speed feature calculation.
+
+* fixed error in motion feature calculation.
+
+* remove dead code from old smartrac data service.
+
+* minor modification of new smartrac service.
+
+v1.0.8Y	  Date: 12/30/14
+
+* Typo fixed in Data Uploading
+
+* Confirm color is changed immediately
+
+v1.0.7J   Date: 12/29/14
+
+* Implement new data service and notification.
+
+* Fixed feature writing.
+
+* Fixed mode factory typo.
+
+* Removed small tweaks.
+
+v1.0.6J   Date: 12/23/14
+
+* Synchronize drawing of calendar items and prediction of calendar items. 
+
+* Fixed bug in null selected date crash.
+
+v1.0.5J   Date: 12/22/14
+
+* New mode forest implemented
+
+v1.0.4Y	  Date: 12/21/14
+
+*Implemented Upload function
+
+v1.0.3J   Date: 12/19/14
+
+* Modified calendar item edit.
+
+* Modified item update.
+
+* Fixed item deletion issue.
+
+v1.0.2J   Date: 12/18/14
+
+* Add new mode prediction forest with sequence features.
+
+* Implemented sequence features.
+
+* Automatically save changes when user exit edit view.
+
+v1.0.1Y   Date: 12/17/14
+
+* Removed Bug screenshot icon
+
+* Icon is highlighted according to the app screen 
+
+v1.0
+
+* Implemented About page
+
+* Data cleaning (Raw data which is more than two weeks is deleted from locations,motions and intermediate locations table)
+
+* User is not able to modify data for calendar items older than two weeks.

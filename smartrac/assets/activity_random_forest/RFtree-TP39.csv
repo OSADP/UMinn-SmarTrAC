@@ -1,0 +1,200 @@
+"left daughter","right daughter","split var","split point","status","prediction"
+2,3,"tripnum",1.5,1,NA
+4,5,"gas_station",0.0263157894736842,1,NA
+6,7,"beauty_salon",0.0263157894736842,1,NA
+8,9,"shoe_store",0.0263157894736842,1,NA
+10,11,"Bus",0.5,1,NA
+12,13,"park",0.190909090909091,1,NA
+14,15,"store",0.121323529411764,1,NA
+16,17,"Car",0.5,1,NA
+18,19,"arrival_time",1102.5,1,NA
+20,21,"restaurant",0.155870445344129,1,NA
+22,23,"store",0.488304093567252,1,NA
+24,25,"Bus",0.5,1,NA
+26,27,"arrival_time",1717.5,1,NA
+28,29,"hair_care",0.102631578947369,1,NA
+30,31,"atm",0.129166666666666,1,NA
+32,33,"currstudent",0.5,1,NA
+34,35,"food",0.0263157894736842,1,NA
+36,37,"art_gallery",0.054093567251462,1,NA
+38,39,"bar",0.108187134502924,1,NA
+40,41,"numestablishment",8.5,1,NA
+42,43,"numestablishment",17.5,1,NA
+0,0,NA,0,-1,"Education"
+44,45,"movie_rental",0.0714285714285715,1,NA
+46,47,"nearesttag.restaurant",0.5,1,NA
+48,49,"restaurant",0.075,1,NA
+50,51,"nearesttag.insurance_agency",0.5,1,NA
+52,53,"arrival_time",2131,1,NA
+54,55,"airline_dist",23325.2595,1,NA
+56,57,"doctor",0.526315789473685,1,NA
+58,59,"nearesttag.moving_company",0.5,1,NA
+60,61,"bakery",0.0263157894736842,1,NA
+62,63,"park",0.108187134502924,1,NA
+64,65,"Bike",0.5,1,NA
+66,67,"doctor",0.256578947368421,1,NA
+68,69,"physiotherapist",0.171568627450981,1,NA
+70,71,"painter",0.0263157894736842,1,NA
+72,73,"health",0.132478632478633,1,NA
+74,75,"restaurant",0.188235294117647,1,NA
+76,77,"nearesttag.restaurant",0.5,1,NA
+78,79,"food",0.133928571428572,1,NA
+80,81,"Walk",0.5,1,NA
+82,83,"nearesttag.atm",0.5,1,NA
+84,85,"doctor",0.0263157894736842,1,NA
+86,87,"restaurant",0.127777777777778,1,NA
+0,0,NA,0,-1,"Education"
+88,89,"restaurant",0.0263157894736842,1,NA
+90,91,"store",0.171568627450981,1,NA
+92,93,"bank",0.0690476190476191,1,NA
+94,95,"restaurant",0.416666666666667,1,NA
+96,97,"Car",0.5,1,NA
+0,0,NA,0,-1,"Shopping"
+98,99,"store",0.154761904761905,1,NA
+100,101,"bus_station",0.3,1,NA
+102,103,"finance",0.179144385026738,1,NA
+104,105,"airline_dist",28438.1585,1,NA
+106,107,"car_wash",0.0833333333333333,1,NA
+108,109,"dentist",0.105263157894737,1,NA
+110,111,"doctor",0.0571895424836601,1,NA
+112,113,"store",0.30982905982906,1,NA
+114,115,"home_goods_store",0.0690476190476191,1,NA
+116,117,"currstudent",0.5,1,NA
+118,119,"beauty_salon",0.054093567251462,1,NA
+120,121,"store",0.104166666666667,1,NA
+122,123,"nearesttag.store",0.5,1,NA
+124,125,"library",0.138888888888889,1,NA
+126,127,"actdur",35.5,1,NA
+128,129,"actdur",158.5,1,NA
+130,131,"finance",0.0645833333333334,1,NA
+132,133,"arrival_time",1182.5,1,NA
+134,135,"car_repair",0.309523809523809,1,NA
+0,0,NA,0,-1,"Shopping"
+0,0,NA,0,-1,"Social/recreation/entertainment/community"
+136,137,"nearesttag.furniture_store",0.5,1,NA
+138,139,"gym",0.0916666666666666,1,NA
+140,141,"nearesttag.shopping_mall",0.5,1,NA
+142,143,"electronics_store",0.0277777777777778,1,NA
+0,0,NA,0,-1,"Eat out"
+144,145,"atm",0.0625,1,NA
+146,147,"actdur",5.5,1,NA
+148,149,"home_goods_store",0.150375939849624,1,NA
+150,151,"grocery_or_supermarket",0.0277777777777778,1,NA
+152,153,"general_contractor",0.0871212121212121,1,NA
+154,155,"restaurant",0.236363636363636,1,NA
+156,157,"nearesttag.restaurant",0.5,1,NA
+158,159,"bakery",0.0263157894736842,1,NA
+0,0,NA,0,-1,"Shopping"
+0,0,NA,0,-1,"Education"
+160,161,"currstudent",0.5,1,NA
+162,163,"arrival_time",1716.5,1,NA
+164,165,"lodging",0.0263157894736842,1,NA
+166,167,"electronics_store",0.0263157894736842,1,NA
+168,169,"food",0.0263157894736842,1,NA
+170,171,"atm",0.05,1,NA
+172,173,"health",0.177083333333333,1,NA
+174,175,"cafe",0.0277777777777778,1,NA
+176,177,"nearesttag.store",0.5,1,NA
+178,179,"actdur",26.5,1,NA
+180,181,"amusement_park",0.2,1,NA
+182,183,"funeral_home",0.0555555555555555,1,NA
+184,185,"actdur",27,1,NA
+186,187,"tripnum",5,1,NA
+188,189,"school",0.0571895424836601,1,NA
+190,191,"finance",0.267942583732057,1,NA
+192,193,"Tuesday",0.5,1,NA
+194,195,"Thursday",0.5,1,NA
+196,197,"park",0.0833333333333333,1,NA
+0,0,NA,0,-1,"Other personal business"
+198,199,"prev_purpose_work",0.5,1,NA
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Shopping"
+0,0,NA,0,-1,"Shopping"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Shopping"
+0,0,NA,0,-1,"Shopping"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Shopping"
+0,0,NA,0,-1,"Social/recreation/entertainment/community"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Social/recreation/entertainment/community"
+0,0,NA,0,-1,"Social/recreation/entertainment/community"
+0,0,NA,0,-1,"Education"
+0,0,NA,0,-1,"Education"
+0,0,NA,0,-1,"Education"
+0,0,NA,0,-1,"Social/recreation/entertainment/community"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Education"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Education"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Social/recreation/entertainment/community"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Eat out"
+0,0,NA,0,-1,"Shopping"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Shopping"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Eat out"
+0,0,NA,0,-1,"Shopping"
+0,0,NA,0,-1,"Shopping"
+0,0,NA,0,-1,"Shopping"
+0,0,NA,0,-1,"Shopping"
+0,0,NA,0,-1,"Shopping"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Shopping"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Shopping"
+0,0,NA,0,-1,"Social/recreation/entertainment/community"
+0,0,NA,0,-1,"Shopping"
+0,0,NA,0,-1,"Eat out"
+0,0,NA,0,-1,"Shopping"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Shopping"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Eat out"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Social/recreation/entertainment/community"
+0,0,NA,0,-1,"Shopping"
+0,0,NA,0,-1,"Eat out"
+0,0,NA,0,-1,"Eat out"
+0,0,NA,0,-1,"Eat out"
+0,0,NA,0,-1,"Eat out"
+0,0,NA,0,-1,"Shopping"
+0,0,NA,0,-1,"Education"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Social/recreation/entertainment/community"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Shopping"
+0,0,NA,0,-1,"Shopping"
+0,0,NA,0,-1,"Shopping"
+0,0,NA,0,-1,"Social/recreation/entertainment/community"
+0,0,NA,0,-1,"Education"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Social/recreation/entertainment/community"
+0,0,NA,0,-1,"Social/recreation/entertainment/community"
+0,0,NA,0,-1,"Social/recreation/entertainment/community"
+0,0,NA,0,-1,"Social/recreation/entertainment/community"
+0,0,NA,0,-1,"Shopping"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Social/recreation/entertainment/community"
+0,0,NA,0,-1,"Social/recreation/entertainment/community"
+0,0,NA,0,-1,"Social/recreation/entertainment/community"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Other personal business"
+0,0,NA,0,-1,"Social/recreation/entertainment/community"
+0,0,NA,0,-1,"Eat out"
+0,0,NA,0,-1,"Eat out"
+0,0,NA,0,-1,"Eat out"

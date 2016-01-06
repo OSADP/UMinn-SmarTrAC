@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@color/background">
+
+    <Button
+        android:id="@+id/search_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/search"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/search"
+        android:text="@string/search" />
+
+    <TextView
+        android:id="@+id/search_map_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:textColor="@color/text"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_map_header"
+        android:layout_toLeftOf="@+id/search_button"
+        android:ems="10"
+        android:hint="@string/or_enter_address_here"
+        android:singleLine="true" >
+    </AutoCompleteTextView>
+    
+</RelativeLayout>

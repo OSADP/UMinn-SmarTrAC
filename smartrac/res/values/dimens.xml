@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="large_text_dimension">20dp</dimen>
+    <integer name="lost_of_data_measure_time">300000</integer>
+    <integer name="adjacent_activity_threshold">100</integer>
+    <integer name="allowed_accuracy">100</integer>
+    <integer name="allowed_no_data_delay">300000</integer>
+    <integer name="intermediate_location_min_distance_in_cm">30</integer>
+    <integer name="intermediate_location_max_distance_in_cm">5000</integer>
+    <integer name="instant_movement_recovery_distance_in_cm">20000</integer>
+    <integer name="intermediate_location_max_check_time">30000</integer>
+    <integer name="activity_max_tolerance">200</integer>
+    <integer name="adjust_threshold">5</integer>
+    <integer name="process_cache_length">11</integer>
+    <integer name="drop_location_cap">10</integer>
+</resources>

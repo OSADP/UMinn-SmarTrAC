@@ -1,0 +1,3 @@
+Key contributors to the development of SmarTrAC include: Yingling Fan, Julian Wolfson, Gediminas Adomavicius, Jie Kang, and Yash Khandelwal.
+
+The research was completed under contract with the Volpe Center at the U.S. Department of Transportation in support of the Intelligent Transportation Systems Joint Program Office.

@@ -1,0 +1,215 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="6dip" >
+        <LinearLayout
+        android:id="@+id/itemCompanion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="3dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/summary_description" />
+
+        <EditText
+            android:id="@+id/et_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/enter_description"
+            android:paddingBottom="3dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="3dp"
+            android:text="@string/summary_comapnion" />
+
+        <!-- <CheckBox
+            android:id="@+id/alone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/companion_alone" /> -->
+
+        <CheckBox
+            android:id="@+id/spouse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/companion_spouse" />
+
+        <CheckBox
+            android:id="@+id/children"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/companion_ownChildren" />
+
+        <CheckBox
+            android:id="@+id/otherFamily"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/companion_otherFamily" />
+
+        <CheckBox
+            android:id="@+id/friends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/companion_friends" />
+
+        <CheckBox
+            android:id="@+id/coWorkers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/companion_coWorkers" />
+
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/summary_mood" />
+
+        <LinearLayout
+            android:id="@+id/seekbar_labels"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="3dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="@string/seekbar_leftLabel" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:text="@string/seekbar_rightLabel" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="3dp" >
+
+            <TextView
+                android:id="@+id/happy_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/happy" />
+
+            <TextView
+                android:id="@+id/happy_index"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="1" 
+                android:layout_weight="1"/>
+
+            <SeekBar
+                android:id="@+id/happy"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:max="6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="3dp" >
+
+            <TextView
+                android:id="@+id/stress_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/stress" />
+<TextView
+                android:id="@+id/stress_index"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="1" 
+                android:layout_weight="1"/>
+            <SeekBar
+                android:id="@+id/stress"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:max="6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="3dp" >
+
+            <TextView
+                android:id="@+id/sad_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/sad" />
+<TextView
+                android:id="@+id/sad_index"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="1" 
+                android:layout_weight="1"/>
+            <SeekBar
+                android:id="@+id/sad"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:max="6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="3dp" >
+
+            <TextView
+                android:id="@+id/pain_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/pain" />
+<TextView
+                android:id="@+id/pain_index"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="1" 
+                android:layout_weight="1"/>
+            <SeekBar
+                android:id="@+id/pain"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:max="6" />
+        </LinearLayout>
+        
+                    <Button
+            android:id="@+id/bSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="3dp"
+            android:text="@string/save" />
+
+</LinearLayout>
+    
+    
+</ScrollView>
