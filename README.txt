@@ -39,8 +39,5 @@ Documentation
 Documentation can be found in the '\user guide' directory or is viewable online at http://smartrac.umn.edu/for-users
 
 Web sites
----------
-SmarTrAC software is distributed through the USDOT's JPO Open Source Application Development Portal (OSADP)
-http://itsforge.net/ 
-
+--------
 For more information on SmarTrAC visit http://smartrac.umn.edu/
